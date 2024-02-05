@@ -1,0 +1,34 @@
+{
+  "name": "basebot",
+  "version": "1.0.0",
+  "engines": {
+    "node": "17.x"
+  },
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "run": "ts-node index.ts",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antares-Network/BaseBot.git"
+  },
+  "author": "nathen418",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Antares-Network/BaseBot/issues"
+  },
+  "homepage": "https://github.com/Antares-Network/BaseBot#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "4.1.2",
+    "discord.js": "^14.6.0",
+    "mongoose": "^6.7.2",
+    "path": "^0.12.7",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.8.4",
+    "wokcommands": "^2.1.0"
+  }
+}
